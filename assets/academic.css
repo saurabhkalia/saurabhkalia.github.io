@@ -19,3 +19,13 @@ h2{font-size:21px;letter-spacing:-.3px;border-bottom:0;padding-bottom:0;margin-t
 @media(max-width:360px){.profile{grid-template-columns:1fr}.portrait-placeholder{width:90px}.profile h1{font-size:28px}}
 @media(prefers-reduced-motion:reduce){.tab-panel{animation:none}nav a,.project-card{transition:none}.project-card:hover,.project-card:focus-visible{transform:none}}
 @media print{body{background:white}.profile{background:white;padding:0;border:0}.profile:after{display:none}.profile h1{font-size:27pt}.selected-list{display:block}.project-card{border:0}.card-art{display:none}.entry{background:white;border:0}.profile-kicker{display:none}.tab-panel{animation:none}}
+.profile-photo {
+  display: block;
+  width: 100%;
+  max-width: 155px;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid #b7c9b2;
+  border-radius: 50%;
+}
