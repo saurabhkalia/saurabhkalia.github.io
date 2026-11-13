@@ -1,7 +1,5 @@
 # Saurabh Kalia — academic website
 
-A portable, buildless website for PhD applications. Three hand-editable HTML pages; no installation or framework required. Prepared for **saurabian.com**.
-
 ## Preview
 
 Open `index.html` in a browser, or run this from this folder:
